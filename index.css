@@ -1,0 +1,27 @@
+.profile {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+.myName {
+    font-size: 26px;
+    text-align: center;
+}
+.special {
+    font-size: 16px;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.description {
+    width: 400px;
+    background-color: cadetblue;
+    margin: 50px;
+    padding: 30px;
+    border: 1px solid black;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    border-radius: 5px;
+}
