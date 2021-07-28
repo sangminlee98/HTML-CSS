@@ -2,6 +2,10 @@ body {
     margin: 0px;
 }
 
+div, input, textarea {
+    box-sizing: border-box;
+}
+
 .main-background {
     width: 100%;
     height: 500px;
@@ -57,4 +61,64 @@ body {
     margin: auto;
     top: -30px;
     box-sizing: border-box;
-} 
+}
+
+.form-background {
+    margin-top: 200px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    padding: 50px;
+}
+
+.form-white {
+    background-color: white;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    margin: auto;
+}
+
+.form-whole {
+    width: 100%;
+    padding: 10px;
+}
+
+.form-half {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.form-end {
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.clear-box {
+    clear: both;
+}
+
+.sub-box {
+    width: 100px;
+    display: inline-block;
+}
+
+.form-submit {
+    width: 200px;
+    border-radius: 5px;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    padding: 5px;
+    display: inline-block;
+}
+
