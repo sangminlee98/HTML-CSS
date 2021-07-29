@@ -1,0 +1,93 @@
+div, span {
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    
+}
+
+td {
+    text-align: center;
+    border-top: 2px solid rgb(139, 200, 211);
+}
+
+.cart-back {
+    background-color: rgb(139, 200, 211);
+    width: 100%;
+    padding: 20px;
+}
+
+.cart-back h3 {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.cart-table-div {
+    border-radius: 5px;
+    background-color: white;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+.cart-table {
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.image-cell {
+    padding: 10px;
+}
+
+.item-cell {
+    text-align: left;
+    padding: 20px;
+}
+
+.amount-cell, .price-cell, .total-cell, .result-cell {
+    text-align: right;
+    padding: 20px;
+}
+
+.productName {
+    margin: 3px;
+    font-size: 17px;
+}
+
+.productDetail {
+    margin: 5px;
+    font-size: 10px
+}
+
+.result-cell {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tag {
+    padding: 12.5px 0px 12.5px 0px;
+}
+
+.btn {
+    padding: 15px;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

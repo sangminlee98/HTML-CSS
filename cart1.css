@@ -1,0 +1,28 @@
+.cart-background {
+    width: 100%;
+    padding: 20px;
+    background-color: #c2d3de;
+}
+
+.cart-container {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+}
+
+.cart-table {
+    background-color: white;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+
+.cart-table td , .cart-table th{
+    border-bottom: 2px solid #c2d3de;
+    padding: 15px;
+}
+
+.cart-item {
+    width: 50%;
+    text-align: left;
+}
