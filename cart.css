@@ -24,6 +24,7 @@ td {
     margin: auto;
     margin-bottom: 20px;
     padding: 10px;
+    color: rgb(53, 53, 122);
 }
 
 .cart-table-div {
@@ -40,10 +41,12 @@ td {
     border: none;
     border-radius: 7px;
     width: 100%;
+    color: rgb(53, 53, 122);
 }
 
 .image-cell {
     padding: 10px;
+    color: rgb(53, 53, 122);
 }
 
 .item-cell {
@@ -54,6 +57,7 @@ td {
 .amount-cell, .price-cell, .total-cell, .result-cell {
     text-align: right;
     padding: 20px;
+    color: rgb(53, 53, 122);
 }
 
 .productName {
@@ -82,12 +86,38 @@ td {
 
 .tag {
     padding: 12.5px 0px 12.5px 0px;
+    text-decoration: none;
+
+}
+
+.tag:link {
+    color: black;
+}
+
+.tag:visited {
+    color: color: rgb(53, 53, 122);
 }
 
 .btn {
     padding: 15px;
-    background-color: navy;
-    color: white;
+    font-size: 15px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-coral {
+    background-color: coral;
+    color: white;
+}
+
+.btn-coral:hover {
+    background-color: white;
+    color: coral;
+}
+
+
+.btn-coral:active {
+    background-color: #eee;
+
 }
