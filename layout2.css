@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@font-face {
+    font-family: '이쁜폰트';
+    src: url(nanumsquareR.ttf);
+}
+
 body {
     margin: 0px;
+    /* font-family: 'Open Sans'; */
 }
+
 
 div, input, textarea {
     box-sizing: border-box;
@@ -120,5 +129,35 @@ div, input, textarea {
     border: none;
     padding: 5px;
     display: inline-block;
+    cursor: pointer;
 }
 
+.form-submit:hover {
+    background-color: #eee;
+    color: darkorange;
+}
+
+.flex-container {
+    background-color: lightgrey;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.menu-box {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.menu-box span {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.logo-box {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
