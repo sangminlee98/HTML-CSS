@@ -27,7 +27,6 @@ div {
 .jumbo {
     background: linear-gradient(to bottom, skyblue,blue);
     width: 100%;
-    max-width: 1200px;
     color: white;
 }
 
