@@ -1,0 +1,70 @@
+body, p {
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.list {
+    width: 500px;
+    margin-bottom: 200px;
+    ul {
+        list-style: none;
+    }
+    li {
+        padding: 20px;
+        border: 1px solid #eee;
+        &:active {
+            background-color: blue;
+            color: white;
+        }
+    }
+}
+
+@mixin box-design($back-color,$text-color) {
+    padding: 15px;
+    width: 800px;
+    background-color: $back-color;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    p {
+        color: $text-color;
+    }
+}
+
+$darkbrown: #6f4f28;
+
+.alert{
+    margin-bottom: 200px;
+    .alert-box1 {
+        @include box-design(lightgreen, darkgreen);
+    }
+    .alert-box2 {
+        @include box-design(lightblue, darkblue);
+    }
+    .alert-box3 {
+        @include box-design(lightyellow, $darkbrown)
+    }
+}
+
+@mixin col-design($width) {
+    float: left;
+    width: $width;
+    border: 1px solid grey;
+    background-color: lightpink;
+}
+
+.row{
+    width: 800px;
+    .col-6 {
+        @include col-design(50%);
+    }
+    .col-4 {
+        @include col-design(33.33%)
+    }
+    .col-3 {
+        @include col-design(25%)
+    }
+    
+}
