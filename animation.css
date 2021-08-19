@@ -41,30 +41,38 @@ p,h2{
     animation-fill-mode: forwards;
 }
 
-.nav-bar {
-    text-align: center;
+.nav-bar1 {
+    width: 300px;
+    height: 100%;
     background-color: black;
-    width: 120px;
-    height: 500px;
-    transition: 0.5s;
-}
-
-.nav-bar h2,p {
     color: white;
-    transform: translateY(50px);
+    padding: 25px;
+    text-align: right;
+    position: fixed;
+    z-index: 5;
+    transform: translateX(-220px);
+    transition: all 1s;
 }
 
-.nav-bar p {
-    opacity: 0;
+.nav-bar1 h4 {
+    margin-bottom: 50px;
 }
 
-.nav-bar:hover {
-    width: 500px;
+.item {
+    transform: translateX(-200px);
+    transition: all 1s;
 }
 
-.nav-bar:hover p{
-    opacity: 1;
+.nav-bar1:hover{
+    transform: translateX(0);
+    text-align: center;
 }
+
+.nav-bar1:hover .item {
+    transform: translateX(0);
+}
+
+
 
 @keyframes btn-move {
     25% {
