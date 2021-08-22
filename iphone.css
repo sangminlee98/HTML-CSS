@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.grey {
+    background-color: grey;
+    height: 2000px;
+    margin-top: 600px;
+    margin-bottom: 1600px;
+}
+
+.grey h4 {
+    float: left;
+    color: white;
+    padding: 20px;
+    
+}
+
+.grey img {
+    position: sticky;
+    top: 100px;
+    float: right;
+    width: 300px;
+}
