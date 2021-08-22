@@ -1,4 +1,4 @@
-body {
+body, p {
     margin: 0;
 }
 
@@ -12,12 +12,20 @@ div {
     width: 130px;
     transform: translateX(-80px);
     transition: all 0.5s;
+    display: inline-block;
 }
 
 .menu-items {
     color: white;
-    padding: 10px;
-    transform: translate(10px,20px);
+    padding: 15px;
+    padding-left: 17px;
+    transform: translateY(20px);
+    
+}
+
+.menu-items:hover {
+    width: 100%;
+    background-color: blue;
 }
 
 .menu-icons {
@@ -31,6 +39,8 @@ div {
     margin-left: 10px;
     transform: translateX(-300px);
     transition: all 0.5s;
+    vertical-align: middle;
+    margin-bottom: 0 ;
 }
 
 .nav-bar:hover {
@@ -43,4 +53,8 @@ div {
 
 .nav-bar:hover .menu-text {
     transform: translateX(0);
+}
+
+.search-bar {
+    display: inline-block;
 }
