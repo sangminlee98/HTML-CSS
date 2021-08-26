@@ -8,19 +8,49 @@ div {
 
 .side-bar {
     float: left;
+    background-color: #120984;
     width: 40px;
     height: 100vh;
-    background-color: blue;
+    position: fixed;
+    z-index: 5;
+    transition: all 0.5s;
 }
 
+.side-bar li {
+    list-style: none;
+    color: white;
+    transform: translateX(-30px);
+    margin-top: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.side-bar-text {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    transform: translateX(-100px);
+    transition: all 0.5s;
+}
+
+.side-bar:hover {
+    width: 140px;
+}
+
+.side-bar:hover .side-bar-text {
+    transform: translateX(0);
+}
+
+
+
 .nav-bar {
-    float: left;
-    width: 90%;
+    width: auto;
+    margin-left: 40px;
 }
 
 .nav-input {
     border-radius: 5px 0px 0px 5px;
-    border: 1px solid lightgray;
+    border: 1px solid black;
     width: 200px !important;
     transition: all 0.5s;
 }
@@ -32,14 +62,14 @@ div {
 .nav-icon {
     border-radius: 0px 5px 5px 0px;
     background-color: black;
-    border: 1px solid lightgray;
+    border: 1px solid black;
     color: white;
 }
 
 .nav-icon:hover {
     background-color: white;
     color: black;
-    border: 1px solid lightgray;
+    border: 1px solid black;
 }
 
 .forms {
