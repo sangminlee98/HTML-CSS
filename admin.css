@@ -2,7 +2,7 @@ body, p {
     margin: 0;
 }
 
-div {
+div, section {
     box-sizing: border-box;
 }
 
@@ -122,4 +122,55 @@ div {
 .card-icon {
     color: gray;
     padding: 10px;
+}
+
+.content {
+    margin-top: 15px;
+}
+
+.chart {
+    margin-top: 15px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    box-shadow: 1px 1px lightgrey;
+}
+
+.chart h5 {
+    padding: 15px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    border-bottom: 2px solid #eee;
+}
+
+#myChart {
+    background-color: white;
+    padding: 20px
+}
+
+.tasks {
+    margin-top: 15px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    box-shadow: 1px 1px lightgrey;
+}
+
+.tasks h5 {
+    padding: 15px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    border-bottom: 2px solid #eee;
+}
+
+.task-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #eee;
+}
+
+.task-badge {
+    color: white;
+    padding: 0px 10px 0px 10px;
+    border-radius: 30px;
 }
