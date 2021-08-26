@@ -4,25 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./admin.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="./fontAwesome/css/all.css">
+    <link rel="stylesheet" href="./admin.css">
     <title>Document</title>
 </head>
 <body>
-    <nav class="nav-bar">
-        <div class="menu-items">
-            <i class="fas fa-home menu-icons"><p class="menu-text">Home</p></i>
-        </div>
-        <div class="menu-items">
-            <i class="fas fa-headphones menu-icons"><p class="menu-text">Services</p></i>
-        </div>
-        <div class="menu-items">
-            <i class="fas fa-flag menu-icons"><p class="menu-text">Alerts</p></i>
-        </div>
-        <div class="menu-items">
-            <i class="fas fa-chart-pie menu-icons"><p class="menu-text">Stats</p></i>
+    <nav class="side-bar">
+
+    </nav>
+
+    <nav class="nav-bar navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="form-inline mt-2 my-lg-0 forms">
+                <input class="form-control nav-input" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn  nav-icon" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <div class="nav-badge">
+                        <i class="fas fa-bell" style="position: relative;"><a href="#" class="badge badge-danger">5</a></i>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-badge">
+                        <i class="fas fa-envelope" style="position: relative;"><a href="#" class="badge badge-danger">9</a></i>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sangmin Lee</a>
+                </li>
+            </ul>
+          
         </div>
     </nav>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
 </body>
 </html>
