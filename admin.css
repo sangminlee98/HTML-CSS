@@ -16,20 +16,25 @@ div {
     transition: all 0.5s;
 }
 
-.side-bar li {
+.side-bar-list {
     list-style: none;
     color: white;
-    transform: translateX(-30px);
+    transform: translateX(-40px);
     margin-top: 20px;
     position: relative;
     cursor: pointer;
+    padding: 10px;
+}
+
+.side-bar-list:hover {
+    background-color: #2c23b3;
 }
 
 .side-bar-text {
     position: absolute;
-    top: 0;
-    left: 25px;
-    transform: translateX(-100px);
+    top: 10px;
+    left: 35px;
+    transform: translateX(-200px);
     transition: all 0.5s;
 }
 
@@ -46,6 +51,7 @@ div {
 .nav-bar {
     width: auto;
     margin-left: 40px;
+    box-shadow: lightgray 2px 2px 2px;
 }
 
 .nav-input {
@@ -86,4 +92,34 @@ div {
     position: absolute;
     right: -10px;
     top: -13px;
+}
+
+.main-container {
+    width: auto;
+    height: 100vh;
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.cards {
+    height: 120px;
+}
+
+.cards-1 {
+    border-left: 3px solid skyblue;
+}
+.cards-2 {
+    border-left: 3px solid green;
+}
+.cards-3 {
+    border-left: 3px solid #120984;
+}
+.cards-4 {
+    border-left: 3px solid orange;
+}
+
+
+.card-icon {
+    color: gray;
+    padding: 10px;
 }
