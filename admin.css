@@ -1,5 +1,6 @@
 body, p {
     margin: 0;
+    background-color: #f8f9fa;
 }
 
 div, section {
@@ -96,7 +97,7 @@ div, section {
 
 .main-container {
     width: auto;
-    height: 100vh;
+    height: 100%;
     margin-left: 40px;
     padding: 20px;
 }
@@ -173,4 +174,22 @@ div, section {
     color: white;
     padding: 0px 10px 0px 10px;
     border-radius: 30px;
+}
+
+footer {
+    color: lightgray;
+    text-align: center;
+    margin-top: 150px;
+}
+
+footer i {
+    margin: 10px;
+    width: 25px;
+    height: 25px;
+    color: white;
+    background-color: lightgrey;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding-top: 5px; 
+    
 }
